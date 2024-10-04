@@ -30,7 +30,7 @@ def main():                             # define main function
             show_tasklist()
         elif choice == "3":
             print("Goodbye.")   
-            break                       # break to end the while - loop
-if __name__ == "main":                    # control function
+            break                        # break to end the while - loop
+if __name__ == "__main__":                    # control function
     main()
 
